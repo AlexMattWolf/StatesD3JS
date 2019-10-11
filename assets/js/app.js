@@ -48,7 +48,7 @@ function draw() {
 
     var svg = d3.select('#scatter')
         .append('svg')
-        .classed('col-11', true)
+        .classed('col', true)
         .classed('mx-auto', true)
         .attr('width', s_wdh)
         .attr('height', s_hgt)
